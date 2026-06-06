@@ -17,10 +17,10 @@ const links = [
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-slate-950 text-white flex flex-col items-center justify-center p-6 relative overflow-hidden">
+    <div className="min-h-screen bg-[#621114] text-white flex flex-col items-center justify-center p-6 relative overflow-hidden">
       {/* Background Effect */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,_rgba(30,58,138,0.3),_transparent_70%)]" />
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950 animate-gradient-slow opacity-80" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,_rgba(239,68,68,0.3),_transparent_70%)]" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#3a080a] via-[#621114] to-[#3a080a] animate-gradient-slow opacity-80" />
       
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
@@ -41,7 +41,7 @@ export default function App() {
           }}
           className="text-4xl md:text-5xl font-bold tracking-tight text-white"
         >
-          Link Hub - <span className="text-[#00D3F3]">Nexora</span>
+          Link Hub - <span className="text-[#FFFFFF]">Tec</span><span className="text-[#E60103]">Nova</span>
         </motion.h1>
       </motion.div>
 
@@ -56,10 +56,10 @@ export default function App() {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: index * 0.1, duration: 0.4 }}
-              className="relative w-full p-4 bg-[#0a0a0a] border border-[#00D3F3] rounded-xl hover:bg-[#1a1a1a] transition-colors font-medium shadow-lg hover:shadow-[#00D3F3]/20 flex items-center justify-center group text-center"
+              className="relative w-full p-4 bg-[#0a0a0a] border border-[#ef4444] rounded-xl hover:bg-[#1a1a1a] transition-colors font-medium shadow-lg hover:shadow-[#ef4444]/20 flex items-center justify-center group text-center"
             >
               <span className="flex-grow">{link.label}</span>
-              <ArrowRight className="w-5 h-5 text-[#00D3F3] absolute right-4 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="w-5 h-5 text-[#ef4444] absolute right-4 group-hover:translate-x-1 transition-transform" />
             </motion.a>
           );
         })}
