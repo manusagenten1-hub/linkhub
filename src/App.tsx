@@ -8,11 +8,11 @@ import { ArrowRight } from "lucide-react";
 import React from "react";
 
 const links = [
-  { label: "CRM", url: "https://ultimate-crm-nx1.vercel.app/" },
+  { label: "CRM", url: "https://tecnova-crm.vercel.app/" },
   { label: "Playbook", url: "https://playbook-agencia.vercel.app/" },
   { label: "Discord", url: "https://discord.com/invite/p3jadHJHzW" },
   { label: "Slides de propostas", url: "https://www.canva.com/design/DAHE0Plpwe8/O7CYQORPbYYCpsd1j6wS7g/edit" },
-  { label: "Site", url: "https://nexoraweb-omega.vercel.app/" },
+  { label: "Site", url: "https://tecnova-solucoes.vercel.app/" },
 ];
 
 export default function App() {
