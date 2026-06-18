@@ -13,6 +13,7 @@ const links = [
   { label: "Discord", url: "https://discord.com/invite/p3jadHJHzW" },
   { label: "Slides de propostas", url: "https://www.canva.com/design/DAHE0Plpwe8/O7CYQORPbYYCpsd1j6wS7g/edit" },
   { label: "Site", url: "https://tecnova-solucoes.vercel.app/" },
+  { label: "Agente de Prompt", url: "https://chatgpt.com/g/g-693e8458ca98819193c88e92b9dbe9e8-black-nexus" },
 ];
 
 export default function App() {
